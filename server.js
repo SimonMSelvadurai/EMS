@@ -61,7 +61,9 @@ const promptUser = () => {
 
       if (choices === "View All Employees") {
         //viewAllEmployees();
+        console.log("<------------- View All Employees ------------ > ");
         view.viewAllEmployees();
+        // view.employeeSearch();
       }
 
       if (choices === "View All Departments") {
@@ -120,7 +122,8 @@ const promptUser = () => {
 
 // ----------------------------------------------------- VIEW -----------------------------------------------------------------------
 
-// View All Employees
+//View All Employees
+
 // const viewAllEmployees = () => {
 //   let sql = `SELECT employee.id,
 //                   employee.first_name,
